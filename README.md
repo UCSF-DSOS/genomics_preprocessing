@@ -6,7 +6,7 @@ Welcome to the UCSF Data Science Initiative's genomic preprocessing workshop. We
 - [Bulk RNA seq](https://github.com/UCSF-DSI/bulk_RNA_seq)
 - [scRNA seq](https://github.com/UCSF-DSI/scRNA_seq)
 
-This repository is currently under development - materials are coming soon.
+This repository is currently under development - materials are coming soon. For the curious ones out there: this class will be loosely based on [Data Carpentry's genomics workshop](https://datacarpentry.org/genomics-workshop/).
 
 ### Official UCSF DSI Course Materials
 
