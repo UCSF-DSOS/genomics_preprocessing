@@ -1,4 +1,4 @@
-# UCSF DSI genomic preprocessing
+# UCSF DSI genomic preprocessing:
 
 Welcome to the UCSF Data Science Initiative's genomic preprocessing workshop. We plan to show you how to preprocess raw sequencing data for the following analyses:
 
