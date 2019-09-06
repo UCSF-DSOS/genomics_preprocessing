@@ -1,0 +1,24 @@
+---
+title: "SystemPipeR Setup"
+author: "Angelo Pelonero"
+date: "9/6/2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Installing packages
+```{r}
+### install systemPipeR
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("systemPipeR")
+
+### install systemPipeRdata (helper package, may not use)
+if (!requireNamespace("BiocManager", quietly=TRUE))
+    install.packages("BiocManager")
+BiocManager::install("tgirke/systemPipeRdata", build_vignettes=TRUE, dependencies=TRUE)
+```
+Neat. Let's load up a vignette in the next notebook.

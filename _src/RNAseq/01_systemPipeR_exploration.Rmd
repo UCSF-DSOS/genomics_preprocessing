@@ -1,0 +1,23 @@
+---
+title: "SystemPipeR Exploration"
+author: "Angelo Pelonero"
+date: "9/6/2019"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Intro:
+
+This is an appropriation of a [UCR RNA-seq workflow](http://girke.bioinformatics.ucr.edu/GEN242/pages/mydoc/systemPipeRNAseq.html) using systemPipeR. To quote the introduction to the linked vignette:
+
+> To run this sample report, mini sample FASTQ and reference genome files can be downloaded from here. The chosen data set SRP010938 contains 18 paired-end (PE) read sets from Arabidposis thaliana (Howard et al. 2013). To minimize processing time during testing, each FASTQ file has been subsetted to 90,000-100,000 randomly sampled PE reads that map to the first 100,000 nucleotides of each chromosome of the A. thalina genome. The corresponding reference genome sequence (FASTA) and its GFF annotion files (provided in the same download) have been truncated accordingly. This way the entire test sample data set is less than 200MB in storage space. A PE read set has been chosen for this test data set for flexibility, because it can be used for testing both types of analysis routines requiring either SE (single end) reads or PE reads.
+
+```{r}
+library(systemPipeR)
+library(systemPipeRdata)
+genWorkenvir(workflow="rnaseq")
+```
+
