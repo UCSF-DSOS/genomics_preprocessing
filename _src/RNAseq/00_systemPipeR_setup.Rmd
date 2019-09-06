@@ -22,3 +22,9 @@ if (!requireNamespace("BiocManager", quietly=TRUE))
 BiocManager::install("tgirke/systemPipeRdata", build_vignettes=TRUE, dependencies=TRUE)
 ```
 Neat. Let's load up a vignette in the next notebook.
+
+This is the vignette we'll be starting with. Selected contents will be in the next notebook in this series (01_systemPipeR_exploration.Rmd):
+```{r}
+download.file("https://raw.githubusercontent.com/tgirke/GEN242/gh-pages/_vignettes/11_RNAseqWorkflow/systemPipeRNAseq.Rmd", "systemPipeRNAseq.Rmd")
+```
+
