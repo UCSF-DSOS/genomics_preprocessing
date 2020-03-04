@@ -13,6 +13,8 @@ This repository is currently under development - materials are coming soon. For 
 ## Dev notes:
 ### (/◕ヮ◕)/  ! The DSI rocks! ヽ(^o^)丿
 
+All of this repo is now out-of-date. Box is where the updated stuff lives. It's a big download. Ask Karla for access to the Box folder.
+
 Nested in each directory below `_workflows/` are documents called "README_FIRST.txt...
 
 Read those first! These documents detail aims/to-dos/issues associated with each workflow implementation. 
